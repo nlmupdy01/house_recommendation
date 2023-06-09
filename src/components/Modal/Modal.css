@@ -1,0 +1,47 @@
+.ModalContainer {
+  width: 15rem;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  border-radius: 0.25rem;
+}
+.ModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.closeIcon {
+  color: red;
+  cursor: pointer;
+  padding-bottom: 0;
+  font-size: 1.3rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 1rem 1rem;
+}
+.CheckBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+.ModalContainer input {
+  cursor: pointer;
+}
+.submit {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #28a745;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+}

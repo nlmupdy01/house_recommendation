@@ -1,0 +1,43 @@
+.submenuContainer {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 5rem;
+  border-radius: 0.25rem;
+}
+.closeIcon {
+  cursor: pointer;
+  color: red;
+}
+.button {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttonWrapper {
+  width: 100%;
+  cursor: pointer;
+}
+.button.edit {
+  background-color: #007bff;
+  color: #fff;
+  outline: none;
+  border-color: #007bff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.button.delete {
+  background-color: #dc3545;
+  color: #fff;
+  outline: none;
+  border-color: #dc3545;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}

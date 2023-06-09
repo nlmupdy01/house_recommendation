@@ -1,0 +1,38 @@
+.BoxContainer {
+  border: 1px solid transparent;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  transition: box-shadow 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.BoxContainer:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.house {
+  background-color: #CD5C5C;
+  border-color: #CD5C5C;
+}
+.plot {
+  background-color: #EAECEE;
+  border-color:#EAECEE;
+}
+.service {
+  background-color: #117864;
+  border-color: #117864;
+  text-transform: capitalize;
+}
+.boxContent {
+  display: flex;
+  align-items: center;
+}
+.boxContent svg {
+  margin-right: 0.5rem;
+}
